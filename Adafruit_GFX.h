@@ -47,7 +47,6 @@ class Adafruit_GFX : public Print {
     // Optional and probably not necessary to change
     drawLine(int16_t x0, int16_t y0, int16_t x1, int16_t y1, uint16_t color),
     drawRect(int16_t x, int16_t y, int16_t w, int16_t h, uint16_t color);
-
   // These exist only with Adafruit_GFX (no subclass overrides)
   void
     drawCircle(int16_t x0, int16_t y0, int16_t r, uint16_t color),
@@ -214,3 +213,4 @@ class GFXcanvas16 : public Adafruit_GFX {
 };
 
 #endif // _ADAFRUIT_GFX_H
+
